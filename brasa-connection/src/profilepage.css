@@ -1,0 +1,131 @@
+
+#all{
+    background-color: #ffffffc2;
+}
+body{
+    align-items: center;
+
+}
+#intropage{
+    margin-top: 120px;
+    text-align: center;
+}
+
+#profile-pic2{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px #939393;
+    margin-left: 50px;
+}
+
+
+#box{
+    width: 800px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 16px;
+    display: flex;
+    margin-top: 18px;
+    border: #858585 solid;
+}
+
+#picture {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+#intro {
+    flex: 3; 
+    padding: 50px 15px;
+    margin: 10px;
+    box-sizing: border-box;
+    /*border-top: 2px solid #a8a8a8;
+    border-bottom: 2px solid #a8a8a8;*/
+    background-color: transparent;
+    text-align: left;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+
+#name{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    
+}
+
+.intro-text{
+    font-size: 15px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    line-height: 20px;
+    color: rgb(79, 79, 79);
+}
+
+#buttons{
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    width:400px;
+    margin-bottom: 7px;
+}
+
+.logo-button{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black; 
+    border-radius:16px;
+    background-size: 40px;
+    margin-right: 10px;
+    background-color: #93939300;
+}
+.logo-button:hover{
+    box-shadow: 0px 0px 10px #858585;
+}
+#message-button{
+    letter-spacing: 2px;
+    border: 2px solid black;
+    border-radius: 18px;
+    height:34px;
+    width: 120px;
+    background-color: transparent;
+}
+
+#message-button:hover{
+    box-shadow: 0px 0px 10px #858585;
+}
+
+#about-box{
+    flex:1;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    border-right: #858585 solid;
+    margin-top: 40px;
+}
+#part2{
+    display: flex;
+}
+
+
+
+#text{
+    flex: 3;
+    margin-top: 20px;
+    padding: 50px 100px;
+}
+
+#info{
+    border-top: #858585 solid;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+    margin-left: 10%;
+}
