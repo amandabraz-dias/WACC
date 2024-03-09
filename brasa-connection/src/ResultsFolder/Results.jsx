@@ -6,6 +6,7 @@ import './Results.css'
 function Results() {
     return(
         <>
+        <NavBar></NavBar>
           <div id="all2">
             <a id="results">Results...</a>  
             <div>   

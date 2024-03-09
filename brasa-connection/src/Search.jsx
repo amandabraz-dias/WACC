@@ -1,3 +1,4 @@
+import NavBar from "./NavBar";
 function Search () {
   function checkEnterKey(event) {
     if (event.key === 'Enter') {
@@ -6,6 +7,7 @@ function Search () {
   }
     return (
     <body class="background-overlay">
+       <NavBar></NavBar>
       <div id="search">
         <img src="images/logoPlusName.png" alt="Logo" id="main-logo"/>
         <br />

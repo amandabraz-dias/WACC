@@ -1,3 +1,5 @@
+import NavBar from './NavBar';
+import NavBarLogin from './NavBarLogin';
 import './profilepage.css'
 import { useSearchParams } from 'react-router-dom'
 
@@ -10,6 +12,7 @@ function ProfilePage(){
     const email = searchParams.get("email") ? searchParams.get("email") : "amanda.dias@gmail.com";
     return (
         <>
+        <NavBar></NavBar>
         <body id="background">
         <div id="all">
             <div id="box">
