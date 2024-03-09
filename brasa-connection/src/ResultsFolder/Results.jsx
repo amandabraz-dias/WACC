@@ -30,6 +30,7 @@ function Results() {
                 <p>Industrial Engineering</p>
             </div>
           </div>  
+          </div>
         </> 
         );
 
