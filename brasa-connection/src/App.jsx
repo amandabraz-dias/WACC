@@ -4,11 +4,13 @@ import Login from './LoginForm/login';
 import Register from './RegisterForm/register';
 import ProfilePage from './ProfilePage';
 import Search from './Search';
+import NavBar from './NavBar';
+import Results from './ResultsFolder/Results';
 function App() {
 
   return (
     <>
-      
+    <NavBar></NavBar>
     <BrowserRouter>
         <Routes>
         <Route path="/" element={<Search></Search>}></Route>
@@ -16,6 +18,7 @@ function App() {
 
           <Route path="/login" element={<Login></Login>}></Route>
           <Route path="/profilepage" element={<ProfilePage></ProfilePage>}></Route>
+          <Route path="/results" element={<Results></Results>}></Route>
         </Routes>
         </BrowserRouter>
     </>
