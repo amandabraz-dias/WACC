@@ -1,0 +1,28 @@
+#nav{
+    background-color: #175488;
+    color: #FFFFFF;
+    height: 80px;
+}
+#logo{
+    width: 132px;
+    height: 29px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+#navPages {
+    color: #FFFFFF;
+    margin-right: 7px;
+    font-family: lato-light, lato, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+#ProfilePic {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 1px solid;
+    border-color: #FFFFFF;
+}
