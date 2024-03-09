@@ -1,26 +1,45 @@
 #nav{
-    background-color: #175488;
+    background-color: #175488 !important;
     color: #FFFFFF;
-    height: 80px;
+    height: 3vw;
+    width: 99vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.container-fluid {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: horizontal;
+}
+#horizontal {
+    display: flex;
+    flex-direction: horizontal;
+    padding-right: 1.5vw;
 }
 #logo{
-    width: 132px;
-    height: 29px;
+    width: 11.5vw;
+    height: 2.5vw;
     object-fit: cover;
-    margin-left: 10px;
+    margin-left: 1vw;
+    margin-top: 0.2vw;
 }
 #navPages {
     color: #FFFFFF;
-    margin-right: 7px;
+    margin-right: 15px;
     font-family: lato-light, lato, sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.75vw;
+    padding-top: 0.25vw;
     text-decoration: none;
 }
 #ProfilePic {
-    height: 30px;
-    width: 30px;
-    border-radius: 15px;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 1.5vw;
     object-fit: cover;
     margin-right: 15px;
     border: 1px solid;
