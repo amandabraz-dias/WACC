@@ -1,11 +1,11 @@
 
 #all{
-    background-color: #ffffffc2;
-}
-body{
+    background-color: #007abc63;
+    border-radius: 40px;
     align-items: center;
-
+    text-align: center;
 }
+
 #intropage{
     margin-top: 120px;
     text-align: center;
@@ -15,7 +15,6 @@ body{
     height: 200px;
     width: 200px;
     border-radius: 100%;
-    margin-top: 20px;
     box-shadow: 0px 0px 20px #939393;
     margin-left: 50px;
 }
@@ -28,15 +27,16 @@ body{
     text-align: center;
     border-radius: 16px;
     display: flex;
-    margin-top: 18px;
-    border: #858585 solid;
+    margin-top: 10px;
+    align-items: center;
 }
 
 #picture {
     flex: 1;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
     box-sizing: border-box;
+    margin-bottom: 10px;
 }
 #intro {
     flex: 3; 
@@ -48,15 +48,15 @@ body{
     background-color: transparent;
     text-align: left;
     margin-right: 50px;
-    margin-top: 30px;
+    margin-top: 40px;
 
 }
 
 #name{
-    font-size: 40px;
+    font-size: 48px;
     letter-spacing: 2px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 6px;
+    color: black;
 }
 
 .intro-text{
@@ -69,7 +69,7 @@ body{
 
 #buttons{
     display: flex;
-    margin-top: 10px;
+    margin-top: 5px;
     padding-bottom: 15px;
     width:400px;
     margin-bottom: 7px;
@@ -88,16 +88,19 @@ body{
     box-shadow: 0px 0px 10px #858585;
 }
 #message-button{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     border: 2px solid black;
     border-radius: 18px;
     height:34px;
     width: 120px;
     background-color: transparent;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
 }
 
 #message-button:hover{
-    box-shadow: 0px 0px 10px #858585;
+    box-shadow: 0px 0px 10px #a2a2a2;
 }
 
 #about-box{
@@ -109,23 +112,33 @@ body{
     border-right: #858585 solid;
     margin-top: 40px;
 }
-#part2{
+
+#info{
+    border-top:1px black solid;
+    width: 700px;
+    align-items: top;
+    text-align: left;
+    height: 200px;
+    margin-left: 7%;
+    padding-top: 40px;
     display: flex;
 }
 
-
-
-#text{
-    flex: 3;
-    margin-top: 20px;
-    padding: 50px 100px;
+.label{
+    margin-left: 50px;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+}
+.words{
+    margin-left: 50px;
+    color: black; 
 }
 
-#info{
-    border-top: #858585 solid;
-    width: 600px;
-    text-align: center;
-    align-items: center;
-    height: 200px;
-    margin-left: 10%;
+#education{
+    flex:1;
+}
+
+#information{
+    flex:1;
 }
