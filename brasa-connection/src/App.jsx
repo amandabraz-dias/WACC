@@ -10,7 +10,6 @@ function App() {
 
   return (
     <>
-    <NavBar></NavBar>
     <BrowserRouter>
         <Routes>
         <Route path="/" element={<Search></Search>}></Route>
