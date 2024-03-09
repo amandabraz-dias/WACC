@@ -2,24 +2,20 @@ import './App.css'
 import {Route, BrowserRouter, Routes} from "react-router-dom";
 import Login from './LoginForm/login';
 import Register from './RegisterForm/register';
-
+import ProfilePage from './ProfilePage';
+import Search from './Search';
 function App() {
 
   return (
     <>
-      <body class="background-overlay">
-      <div id="search">
-        <img src="images/logoPlusName.png" alt="Logo" id="main-logo"/>
-        <br />
-        <input id="search-bar" placeholder="Search course or internship..." />
-      </div>
-      </body>
+      
     <BrowserRouter>
         <Routes>
-          <Route  path="/" element={<Login></Login>}/>
+        <Route path="/" element={<Search></Search>}></Route>
           <Route path="/register" element={<Register></Register>}></Route>
 
           <Route path="/login" element={<Login></Login>}></Route>
+          <Route path="/profilepage" element={<ProfilePage></ProfilePage>}></Route>
         </Routes>
         </BrowserRouter>
     </>

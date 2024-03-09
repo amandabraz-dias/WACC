@@ -1,6 +1,6 @@
 import './profilepage.css'
 
-function profilepage(){
+function ProfilePage(){
     return (
         <>
         <div id="all">
@@ -31,4 +31,4 @@ function profilepage(){
       )
 
 }
-export default profilepage
+export default ProfilePage
