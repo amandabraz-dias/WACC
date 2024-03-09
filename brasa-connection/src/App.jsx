@@ -1,4 +1,7 @@
 import './App.css'
+import {Route, BrowserRouter, Routes} from "react-router-dom";
+import Login from './LoginForm/login';
+import Register from './RegisterForm/register';
 
 function App() {
 
@@ -11,6 +14,14 @@ function App() {
         <input id="search-bar" placeholder="Search course or internship..." />
       </div>
       </body>
+    <BrowserRouter>
+        <Routes>
+          <Route  path="/" element={<Login></Login>}/>
+          <Route path="/register" element={<Register></Register>}></Route>
+
+          <Route path="/login" element={<Login></Login>}></Route>
+        </Routes>
+        </BrowserRouter>
     </>
   )
 }
