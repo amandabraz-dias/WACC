@@ -1,16 +1,23 @@
 import './profilepage.css'
+import { useSearchParams } from 'react-router-dom'
 
 function ProfilePage(){
+    const [searchParams, setSearchParams] = useSearchParams();
+    const name = searchParams.get("name"); 
+    const image = searchParams.get("image"); 
+    const imageString = "images/" + image + ".jpg";
+    const major = searchParams.get("major");
+    const email = searchParams.get("email");
     return (
         <>
         <body id="background">
         <div id="all">
             <div id="box">
                     <div id="picture">
-                        <img src="images/ProfessionalPic.jpg" id="profile-pic2"/>
+                        <img src={imageString} id="profile-pic2"/>
                     </div>
                     <div id="intro">
-                        <a id="name">Amanda C. Braz</a>
+                        <a id="name">{name}</a>
                         <br/>
                         <div id="buttons">
                             <a href="https://linkedin.com"><img src="images/in.png" class="logo-button"/></a>
@@ -26,7 +33,7 @@ function ProfilePage(){
                     <br/>
                     <a class="words">Major:</a>
                     <br/>
-                    <a class="words">Industrial Engineering</a>
+                    <a class="words">{major}</a>
                     <br/>
                     <a class="words">Georgia Institue of Technology</a>
                 </div>   
@@ -35,7 +42,7 @@ function ProfilePage(){
                     <br/>
                     <a class="words">Email: </a>
                     <br/>
-                    <a class="words">vchang34@gatech.edu</a>
+                    <a class="words">{email}</a>
                 </div>   
             </div>
         </div>
