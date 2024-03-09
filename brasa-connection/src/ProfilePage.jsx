@@ -3,11 +3,11 @@ import { useSearchParams } from 'react-router-dom'
 
 function ProfilePage(){
     const [searchParams, setSearchParams] = useSearchParams();
-    const name = searchParams.get("name"); 
-    const image = searchParams.get("image"); 
+    const name = searchParams.get("name") ? searchParams.get("name") : "Amanda Braz"; 
+    const image = searchParams.get("image") ? searchParams.get("image") : "ProfessionalPic"; 
     const imageString = "images/" + image + ".jpg";
-    const major = searchParams.get("major");
-    const email = searchParams.get("email");
+    const major = searchParams.get("major") ? searchParams.get("major") : "Computer Science";
+    const email = searchParams.get("email") ? searchParams.get("email") : "amanda.dias@gmail.com";
     return (
         <>
         <body id="background">
