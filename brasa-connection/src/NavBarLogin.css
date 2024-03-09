@@ -1,0 +1,30 @@
+#nav{
+    background-color: #175488 !important;
+    height: 3vw;
+    width: 99vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.container-fluid {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: horizontal;
+}
+#horizontal {
+    display: flex;
+    flex-direction: horizontal;
+    padding-right: 1.5vw;
+}
+#navPages {
+    color: #FFFFFF;
+    margin-right: 15px;
+    font-family: lato-light, lato, sans-serif;
+    font-weight: 700;
+    font-size: 1.75vw;
+    padding-top: 0.25vw;
+    text-decoration: none;
+}
