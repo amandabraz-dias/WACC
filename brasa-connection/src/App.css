@@ -1,42 +1,56 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/backgroundBrasacopy.jpg);
+}
+
+#store-link{
+  margin-right: auto;
+}
+
+#search{
   text-align: center;
+  align-items:center;
+  justify-content: center;
+  width: 800px;
+  height: 400px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+#main-logo{
+  width: 450px;
+  margin-top: 100px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#search-bar{
+  height: 34px;
+  font-size: 17px;
+  border-radius: 17px;
+  border: 1px solid #0288D1;
+  width: 200%;
+  max-width: 500px;
+  padding-left: 35px;
+  padding-right: 20px;
+  margin-top: 20px;
+  background-image: url(images/searchpic.png);
+  background-position: 7px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#search-bar:hover,
+#search-bar:focus{
+  box-shadow: 0px 0px 5px #c2c2c2;
 }
 
-.card {
-  padding: 2em;
+#search-buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+
+#message-button{
+  letter-spacing: 2px;
 }

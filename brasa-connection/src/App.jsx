@@ -1,16 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import {Route, BrowserRouter, Routes} from "react-router-dom";
 import Login from './LoginForm/login';
 import Register from './RegisterForm/register';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <body class="background-overlay">
+      <div id="search">
+        <img src="images/logoPlusName.png" alt="Logo" id="main-logo"/>
+        <br />
+        <input id="search-bar" placeholder="Search course or internship..." />
+      </div>
+      </body>
     <BrowserRouter>
         <Routes>
           <Route  path="/" element={<Login></Login>}/>
@@ -23,4 +26,7 @@ function App() {
   )
 }
 
+
 export default App
+
+
