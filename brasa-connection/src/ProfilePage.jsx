@@ -21,7 +21,8 @@ function ProfilePage(){
                         <br/>
                         <div id="buttons">
                             <a href="https://linkedin.com"><img src="images/in.png" class="logo-button"/></a>
-                            <button id="message-button">Message</button>
+                            <button id="message-button" href="mailto:amandabrazdias@gmail.com">Message</button>
+                            <button id="upload-button">Upload Transcript</button>
                         </div>
                         
                     </div>

@@ -98,8 +98,23 @@
     align-items: center;
     font-size: 15px;
 }
+#upload-button{
+    letter-spacing: 1px;
+    border: 2px solid black;
+    border-radius: 18px;
+    height:34px;
+    width: 175px;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left:10px;
+}
 
 #message-button:hover{
+    box-shadow: 0px 0px 10px #a2a2a2;
+}
+#upload-button:hover{
     box-shadow: 0px 0px 10px #a2a2a2;
 }
 
